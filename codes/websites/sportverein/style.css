@@ -1,0 +1,90 @@
+body {
+        margin: 0; /* Entfernt Standardabstand des Browsers */
+
+        font-family: "Roboto", sans-serif; /* Setzt die Schriftart auf Roboto, alternativ sans-serif */
+        font-optical-sizing: auto; /* Passt die optische Größe der Schrift automatisch an */
+        font-weight: normal; /* Standard-Schriftstärke */
+        font-style: normal; /* Normale Schrift, nicht kursiv */
+        font-variation-settings: "wdth" 100; /* Setzt die Breite der Schrift auf Standardwert */
+      }
+      h1 {
+        color: #333; /* Überschrift 1 bekommt eine dunkle Schriftfarbe */
+      }
+      p {
+        color: #666; /* Absätze bekommen eine mittlere graue Schriftfarbe */
+      }
+      .header-image {
+        width: 100%; /* Bild nimmt die gesamte Seitenbreite ein */
+        height: 100vh; /* Bild nimmt die gesamte Höhe des Viewports ein */
+        object-fit: cover; /* Bild wird so skaliert, dass es den Container ausfüllt und nicht verzerrt wird */
+        filter: brightness(0.5); /* Bild wird abgedunkelt für bessere Lesbarkeit von Text darüber */
+      }
+      .container {
+
+        left: 32px; /* Abstand von 32px zum linken Rand */
+        right: 32px; /* Abstand von 32px zum rechten Rand */
+        top: 16px; /* Abstand von 16px zum oberen Rand */
+        font-size: 24px; /* Schriftgröße für den Container */
+        display: flex; /* Flexbox-Layout für horizontale Anordnung */
+        align-items: center; /* Zentriert die Kinder-Elemente vertikal */
+        justify-content: space-between; /* Verteilt Logo und Menü mit maximalem Abstand */
+        background-color: rgba(255, 255, 255, 0.5);
+      }
+
+      .menu-link {
+        color: #fff; /* Schriftfarbe weiß */
+        text-decoration: none; /* Entfernt Unterstreichung */
+        margin-right: 20px; /* Abstand zum nächsten Link */
+        padding: 10px 20px; /* Innenabstand oben/unten 10px, rechts/links 20px */
+        display: inline-block; /* Ermöglicht Padding und Margin */
+        background-color: rgba(0, 0, 0, 0.5); /* Halbtransparenter schwarzer Hintergrund */
+        border-radius: 5px; /* Abgerundete Ecken */
+        transition: background-color 0.3s ease; /* Weicher Übergang bei Farbänderung */
+      }
+
+      .menu-link:hover {
+        background-color: rgba(0, 0, 0, 0.7); /* Dunklerer Hintergrund beim Überfahren mit der Maus */
+      }
+      .menu-link:active {
+        background-color: rgba(0, 0, 0, 0.9); /* Noch dunklerer Hintergrund beim Klicken */
+      }
+      .logo {
+        width: 400px; /* Logo ist 400px breit */
+        height: auto; /* Höhe wird automatisch angepasst */
+        margin-right: 0; /* Kein zusätzlicher Abstand rechts */
+      }
+
+      .headline {
+        position: absolute; /* Absolut positioniert, damit es über dem Bild steht */
+        top: 50%; /* Vertikal zentriert */
+        left: 50%; /* Horizontal zentriert */
+        transform: translate(-50%, -50%); /* Exakte Zentrierung */
+        color: #fff; /* Weiße Schriftfarbe */
+        font-size: 48px; /* Große Schrift */
+        text-align: center; /* Zentrierter Text */
+        z-index: 1; /* Überlappt andere Elemente mit niedrigerem z-index */
+        text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5); /* Schwarzer Schatten für bessere Lesbarkeit */
+      }
+      .yellow {
+        color: rgb(236, 236, 67); /* Gelbe Schriftfarbe für Hervorhebung */
+      }
+      .discription {
+        height: 500px; /* Feste Höhe für den Bereich */
+        padding: 30px 100px; /* Innenabstand oben/unten 30px, rechts/links 100px */
+        display: flex; /* Flexbox für nebeneinander angeordnete Kinder */
+        gap: 50px; /* Abstand zwischen den Kindern */
+      }
+      .button {
+        background-color: #ffdd03; /* Gelber Hintergrund */
+        padding: 8px; /* Innenabstand */
+        border-radius: 8px; /* Abgerundete Ecken */
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Leichter Schatten */
+      }
+      .half-width {
+        width: 50%; /* Element nimmt die halbe Breite des Elternteils ein */
+      }
+
+      h2 {
+        text-align: center; /* Zentriert die Überschrift */
+        font-size: 45px; /* Große Schriftgröße für die Überschrift */
+      }

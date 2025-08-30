@@ -1,0 +1,72 @@
+<!DOCTYPE html> <!-- Gibt an, dass dies ein HTML5-Dokument ist -->
+<html lang="de"> <!-- Start des HTML-Dokuments, Sprache ist Deutsch -->
+  <head> <!-- Kopfbereich des Dokuments -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" /> <!-- Baut frühzeitig eine Verbindung zu Google Fonts auf -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> <!-- Baut frühzeitig eine Verbindung zu Google Fonts Static Content auf, mit CORS -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    /> <!-- Lädt die Schriftart Roboto von Google Fonts mit verschiedenen Schriftschnitten und -stilen -->
+
+    <meta charset="UTF-8" /> <!-- Zeichencodierung auf UTF-8 setzen, damit Umlaute und Sonderzeichen korrekt dargestellt werden -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Sorgt für responsives Design auf mobilen Geräten -->
+    <title>Gymtest</title> <!-- Titel der Webseite, erscheint im Browser-Tab -->
+
+    <link rel="stylesheet" href="style.css" /> <!-- Bindet die externe CSS-Datei für das Styling ein -->
+  </head>
+  <body> <!-- Sichtbarer Bereich der Webseite beginnt -->
+
+        <div class="container"> <!-- Container für Logo und Navigation -->
+      <img class="logo" src="img/logo.png" alt="logo" /> <!-- Vereinslogo, links im Container -->
+      <div> <!-- Navigationselemente (Menü) -->
+        <a class="menu-link" href="">Home</a> <!-- Link zur Startseite -->
+        <a class="menu-link" href="">Kontakt</a> <!-- Link zur Kontaktseite -->
+        <a class="menu-link" href="">Aktuelles</a> <!-- Link zu aktuellen Neuigkeiten -->
+        <a class="menu-link button" href="">Anruf</a> <!-- Link mit Button-Stil, vermutlich für einen Anruf -->
+      </div>
+    </div>
+    <img class="header-image" src="img/background.jpg" alt="Background Image" /> <!-- Großes Hintergrundbild oben auf der Seite -->
+
+
+    <h1 class="headline">
+      Wir sind Deutschlands <span class="yellow">viertbestes</span> Showteam!
+    </h1> <!-- Hauptüberschrift, "viertbestes" ist gelb hervorgehoben -->
+
+    <h2>Anfahrt</h2> <!-- Überschrift für den Anfahrtsbereich -->
+    <div class="discription"> <!-- Bereich für Anfahrtsbeschreibung und Karte -->
+      <div class="half-width">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga minus
+        magnam rerum omnis, voluptatem eum odio quam voluptate. Repellat qui
+        consequatur praesentium at debitis tempore voluptate ullam, quidem
+        officia explicabo?
+      </div> <!-- Platzhaltertext für die Anfahrtsbeschreibung -->
+      <iframe
+        class="half-width"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2485.7958859780865!2d13.505595076995947!3d51.461903914025406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a7892fa5fcf951%3A0x693e5197349c2f5a!2sTSC%20%2F%20Sportensemble%20Elsterwerda%20e.V.!5e0!3m2!1sde!2sde!4v1755034074834!5m2!1sde!2sde"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe> <!-- Eingebettete Google Maps Karte mit Vereinsadresse -->
+    </div>
+
+    <h2>Video</h2> <!-- Überschrift für den Videobereich -->
+    <div class="discription"> <!-- Bereich für Video und Beschreibung -->
+      <iframe
+        class="half-width"
+        src="https://www.youtube.com/embed/haEZ_0z4XGc?si=VLBVunloi8nWvahv"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe> <!-- Eingebettetes YouTube-Video -->
+      <div class="half-width">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga minus
+        magnam rerum omnis, voluptatem eum odio quam voluptate. Repellat qui
+        consequatur praesentium at debitis tempore voluptate ullam, quidem
+        officia explicabo?
+      </div> <!-- Platzhaltertext für die Videobeschreibung -->
+    </div>
+  </body>
+</html>
